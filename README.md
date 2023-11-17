@@ -1,4 +1,14 @@
-# T-WEB-501-TLS_10
+# JobBoard
+
+This project aims to realise the following:
+
+✓ a database to store job advertisements ;
+
+✓ a webpage (front end) using Javascript technologies to display an online job advertisements board as well as an administration page for the admin user ;
+
+✓ an API (back end):
+– to allow users to apply for jobs ;
+– to manage the DB (only for admin user) with CRUD operations
 
 ## BASE CONFIGURATION
 
