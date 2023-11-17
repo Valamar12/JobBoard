@@ -1,0 +1,87 @@
+[
+    {
+        "model": "database.company",
+        "pk": 1,
+        "fields": {
+            "name": "Total Energies",
+            "address": "France",
+            "description": "Energies",
+            "url": "total.fr"
+        }
+    },
+
+    {
+        "model": "database.company",
+        "pk": 2,
+        "fields": {
+            "name": "Galeries Lafayette",
+            "address": "Toulouse",
+            "description": "Department store",
+            "url": "galerieslafayette.fr"
+        }
+    },
+
+    {
+        "model": "database.advert",
+        "pk": 1,
+        "fields": {
+            "title": "CFO",
+            "description": "Finance",
+            "experience": 3,
+            "salary": 1000,
+            "company": 1
+        }
+    },
+
+    {
+        "model": "database.advert",
+        "pk": 2,
+        "fields": {
+            "title": "Developer",
+            "description": "Build new app",
+            "experience": 2,
+            "salary": 1000,
+            "company": 1
+        }
+    },
+
+    {
+        "model": "database.advert",
+        "pk": 3,
+        "fields": {
+            "title": "Cashier",
+            "description": "Smile and scan",
+            "experience": 0,
+            "salary": 100,
+            "company": 2
+        }
+    },
+
+    {
+        "model": "database.advert",
+        "pk": 4,
+        "fields": {
+            "title": "Cleaner",
+            "description": "Keep premises clean so customers have a pleasant shopping experience",
+            "experience": 0,
+            "salary": 3000,
+            "company": 2
+        }
+    },
+
+    {
+        "model": "auth.User",
+        "pk": 1,
+        "fields": {
+            "first_name": "Jean",
+            "last_name": "Dujardin",
+            "username": "Jean",
+            "password": "Dujardin",
+            "email": "jd@jd.fr",
+            "last_login": "2023-10-21T20:09:12.819501Z",
+            "is_superuser": false
+        }
+    }
+
+
+]
